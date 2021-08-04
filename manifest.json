@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "matches": ["https://moodle.iitd.ac.in/login/index.php"],
-      "js": ["moodle.js", "aes.js"],
+      "js": ["moodle.js"],
       "run_at": "document_idle"
     },
     {
@@ -23,12 +23,12 @@
     },
     {
       "matches": ["https://oauth.iitd.ac.in/login.php*"],
-      "js": ["tesseract.js", "opencv.js", "eacad.js", "aes.js"],
+      "js": ["tesseract.js", "opencv.js", "eacad.js"],
       "run_at": "document_idle"
     },
     {
       "matches": ["https://webmail.iitd.ac.in/roundcube/*"],
-      "js": ["tesseract.js", "opencv.js", "webmail.js", "aes.js"],
+      "js": ["tesseract.js", "opencv.js", "webmail.js"],
       "run_at": "document_idle"
     }
   ],
