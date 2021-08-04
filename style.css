@@ -1,0 +1,257 @@
+#ok {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: 250px;
+  background: #2c3e50;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+#ok {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+#moodle {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px auto;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+}
+
+#moodle:focus {
+  color: #fff;
+  outline: 0;
+}
+#moodle:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+#eacad {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+}
+
+#eacad:focus {
+  color: #fff;
+  outline: 0;
+}
+#eacad:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+#github {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px auto;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+}
+
+#github:focus {
+  color: #fff;
+  outline: 0;
+}
+#github:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+#webmail {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px auto;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+}
+
+#webmail:focus {
+  color: #fff;
+  outline: 0;
+}
+#webmail:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+#login {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px auto;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+}
+
+#login:focus {
+  color: #fff;
+  outline: 0;
+}
+#login:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+#ok2 {
+  width: 390px;
+  height: 290px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+}
+.login-box {
+  position: absolute;
+  width: 400px;
+  padding: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #2c3e50;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 10px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: white;
+  font-size: 15px;
+}
+
+#sub {
+  float: left;
+  margin: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.01);
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+#back {
+  float: right;
+  margin: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.01);
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}

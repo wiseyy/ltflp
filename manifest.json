@@ -1,0 +1,40 @@
+{
+  "name": "EZ PZ LMN SQZY",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "if you lazy, use it",
+  "icons": {
+    "36": "icon.png",
+    "48": "icon.png",
+    "96": "icon.png",
+    "192": "icon.png",
+    "512": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://moodle.iitd.ac.in/login/index.php"],
+      "js": ["moodle.js", "aes.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://eacademics.iitd.ac.in/sportal/login"],
+      "js": ["eacad.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://oauth.iitd.ac.in/login.php*"],
+      "js": ["tesseract.js", "opencv.js", "eacad.js", "aes.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://webmail.iitd.ac.in/roundcube/*"],
+      "js": ["tesseract.js", "opencv.js", "webmail.js", "aes.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_action": {
+    "default_popup": "pop-up.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["http://*/*/", "https://*/*", "storage", "notifications"]
+}
