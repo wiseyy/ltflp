@@ -1,8 +1,8 @@
 {
-  "name": "EZ PZ LMN SQZY",
+  "name": "ltflp",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "if you lazy, use it",
+  "description": "login tool for lazy people",
   "icons": {
     "36": "icon.png",
     "48": "icon.png",

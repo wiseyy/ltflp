@@ -1,1 +1,2 @@
-web: gunicorn app:webmail
+web: gunicorn webmail:app
+
