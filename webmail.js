@@ -2,6 +2,7 @@ if (document.getElementById("rcmloginuser") !== null) {
   let capt = "";
   let img = document.getElementById("captcha_image").src;
   let url = "https://ltflp.herokuapp.com/" + img.substring(58);
+  //let url = "http://127.0.0.1:5000/" + img.substring(58);
 
   console.log(url);
   console.log(img);
